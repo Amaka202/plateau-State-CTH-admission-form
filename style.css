@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+*,
+*:before,
+*:after {
+          box-sizing: border-box;
+}
+
+.container{
+    padding: 2rem 3rem;
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-header h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    color: rgb(6, 97, 6);
+}
+
+.top-header h3{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(21, 21, 70);
+}
+
+.top-header h4{
+    margin-top: 0.5rem;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: red;
+}
+
+.low-header{
+    margin-top: 2rem;
+    display: flex;
+    line-height: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.provost p:first-child{
+    color: red;
+}
+
+.provost p:first-child span{
+    color: rgb(21, 21, 70);
+    font-size: 0.9em;
+}
+
+.provost p:nth-child(2){
+    color: rgb(21, 21, 70);
+    font-size: 0.6em;
+    font-weight: 900;
+}
+
+.third-para small{
+    font-size: 0.7em;
+    color: rgb(21, 21, 70);
+
+}
+
+.provost form div{
+    margin-bottom: 1rem;
+}
+
+.provost label{
+    font-style: italic;
+}
+
+.provost input{
+    border: none;
+    border-bottom: 1px solid rgb(21, 21, 70);
+}
+
+.registrar p:first-child{
+    color: red;
+}
+
+.registrar p:first-child span{
+    color: rgb(21, 21, 70);
+    font-size: 0.9em;
+}
+
+.registrar p:nth-child(2){
+    color: rgb(21, 21, 70);
+    font-size: 0.6em;
+    font-weight: 900;
+}
+
+.registrar form div{
+    margin-bottom: 1rem;
+}
+
+.registrar label{
+    font-style: italic;
+}
+
+.registrar input{
+    border: none;
+    border-bottom: 1px solid rgb(21, 21, 70);
+}
+
+
+.registrar p:last-child{
+    color: rgb(21, 21, 70);
+    font-size: 0.8em;
+}
